@@ -84,3 +84,37 @@ textarea {
 .output {
   padding: 2rem;
 }
+
+/*============MEDIA-QUERIES(Tablets)============*/
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--md-container-width);
+    margin: 0 auto;
+  }
+
+  .container-qr {
+    gap: 4rem;
+  }
+}
+
+/*============MEDIA-QUERIES(Phones)===========*/
+
+@media screen and (max-width: 600px) {
+  section {
+    padding: 3rem 0;
+  }
+  .container {
+    width: var(--sm-container-width);
+    margin: 0 auto;
+  }
+
+  .container-qr {
+    grid-template-columns: 1fr;
+    gap: 6rem;
+    margin-bottom: 2rem;
+  }
+
+  textarea {
+    font-size: var(--fs--400);
+  }
+}
