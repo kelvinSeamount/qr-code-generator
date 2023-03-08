@@ -24,7 +24,7 @@
   border: none;
   outline: none;
   resize: none;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 body {
