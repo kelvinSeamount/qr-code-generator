@@ -79,8 +79,8 @@ textarea {
 
 .input {
   min-width: 70%;
-  display: grid;
-  place-items: center;
+  /*display: grid;
+  place-items: center;*/
 }
 
 .output {
